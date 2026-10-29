@@ -1,0 +1,26 @@
+[size=5][b]PetPerks[/b][/size]
+
+Each pet gets a perk: cats scare crows, dogs herd farm animals in and out, and turtles boost fish pond roe.
+
+[b]Features[/b]
+[list]
+[*]TODO
+[/list]
+
+[size=3]Please consider endorsing this mod if you find it helpful.[/size]
+
+[b][u]Installation :[/u][/b]
+[list=1]
+[*]Install SMAPI.
+[*]Download and unzip [i]PetPerks1.0.0.zip[/i] into [i]C:\Program Files (x86)\Steam\SteamApps\common\Stardew Valley\Mods\[/i]
+[*]Run the game through SMAPI.
+[/list]
+
+[b][u]Compatibility :[/u][/b]
+[list]
+[*]Tested on Stardew Valley 1.6.15 and SMAPI 4.5.1
+[*]Not tested on Android yet
+[/list]
+
+Source code: https://github.com/vapor-64/PetPerks
+Support me on Ko-fi: https://ko-fi.com/vapor64

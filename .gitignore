@@ -1,0 +1,13 @@
+# Build output
+bin/
+obj/
+
+# IDE
+.idea/
+.vs/
+*.user
+*.suo
+
+# Release zips (except the Nexus upload zips kept in nexus/build)
+*.zip
+!nexus/build/*.zip

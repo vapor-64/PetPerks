@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyName>PetPerks</AssemblyName>
+        <RootNamespace>PetPerks</RootNamespace>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+
+        <!-- ModBuildConfig finds the game automatically (Steam/GOG/Xbox, or the STARDEW_VALLEY_PATH env var).
+             Never hard-code GamePath here; pass -p:GamePath=... on the command line if needed. -->
+        <EnableHarmony>true</EnableHarmony>
+
+        <!-- Build + deploy to <game>\Mods\PetPerks on every build. -->
+        <EnableModDeploy>true</EnableModDeploy>
+        <EnableGameDebugging>false</EnableGameDebugging>
+
+        <!-- Only make the release zip for Release builds (the zip step slows Debug builds). -->
+        <EnableModZip Condition="'$(Configuration)' != 'Release'">false</EnableModZip>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
+    </ItemGroup>
+
+    <!-- manifest.json and i18n/ are included automatically; add everything else the mod loads at runtime. -->
+    <ItemGroup>
+        <None Update="assets\**\*" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+{
+  "Name": "PetPerks",
+  "Author": "vapor64",
+  "Version": "1.0.0",
+  "Description": "Each pet gets a perk: cats scare crows, dogs herd farm animals in and out, and turtles boost fish pond roe.",
+  "UniqueID": "vapor64.PetPerks",
+  "EntryDll": "PetPerks.dll",
+  "UpdateKeys": [ "GitHub:vapor-64/PetPerks" ],
+  "MinimumApiVersion": "4.0.0",
+  "Dependencies": [
+    { "UniqueID": "spacechase0.GenericModConfigMenu", "IsRequired": false }
+  ]
+}
