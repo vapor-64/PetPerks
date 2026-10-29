@@ -4,7 +4,10 @@ Each pet gets a perk: cats scare crows, dogs herd farm animals in and out, and t
 
 [b]Features[/b]
 [list]
-[*]TODO
+[*][b]Cats[/b] scare away crows, so you don't need scarecrows.
+[*][b]Dogs[/b] open the barn and coop doors in the morning, let the animals out, herd them back in at night and close the doors.
+[*][b]Turtles[/b] make fish ponds produce 1.5x more roe.
+[*]Everything is configurable with Generic Mod Config Menu.
 [/list]
 
 [size=3]Please consider endorsing this mod if you find it helpful.[/size]

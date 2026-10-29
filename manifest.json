@@ -8,6 +8,7 @@
   "UpdateKeys": [ "GitHub:vapor-64/PetPerks" ],
   "MinimumApiVersion": "4.0.0",
   "Dependencies": [
-    { "UniqueID": "spacechase0.GenericModConfigMenu", "IsRequired": false }
+    { "UniqueID": "spacechase0.GenericModConfigMenu", "IsRequired": false },
+    { "UniqueID": "vapor64.GenericModDocumentationFramework", "IsRequired": false }
   ]
 }

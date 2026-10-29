@@ -24,6 +24,7 @@
 
     <!-- manifest.json and i18n/ are included automatically; add everything else the mod loads at runtime. -->
     <ItemGroup>
+        <None Update="documentation.json" CopyToOutputDirectory="PreserveNewest" />
         <None Update="assets\**\*" CopyToOutputDirectory="PreserveNewest" />
     </ItemGroup>
 </Project>

@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vapor64/GMDF/master/documentation.schema.json",
+  "format": 1,
+  "modName": "{{i18n:doc.mod-name}}",
+  "pages": [
+    {
+      "id": "overview",
+      "name": "{{i18n:doc.page.overview}}",
+      "entries": [
+        { "type": "divider", "style": "iconCentered" },
+        { "type": "sectionTitle", "text": "{{i18n:doc.overview.title}}", "fontSize": 28 },
+        { "type": "paragraph", "text": "{{i18n:doc.overview.intro}}", "fontSize": 20 },
+        { "type": "divider", "style": "dotted" },
+        { "type": "sectionTitle", "text": "{{i18n:doc.overview.perks-title}}", "fontSize": 28 },
+        { "type": "keyValue", "fontSize": 20, "key": "{{i18n:doc.overview.cat-key}}", "value": "{{i18n:doc.overview.cat-value}}" },
+        { "type": "keyValue", "fontSize": 20, "key": "{{i18n:doc.overview.dog-key}}", "value": "{{i18n:doc.overview.dog-value}}" },
+        { "type": "keyValue", "fontSize": 20, "key": "{{i18n:doc.overview.turtle-key}}", "value": "{{i18n:doc.overview.turtle-value}}" },
+        { "type": "divider", "style": "dotted" },
+        { "type": "sectionTitle", "text": "{{i18n:doc.overview.explore-title}}", "fontSize": 28 },
+        { "type": "internalLink", "text": "{{i18n:doc.overview.link-cats}}", "page": "cats" },
+        { "type": "internalLink", "text": "{{i18n:doc.overview.link-dogs}}", "page": "dogs" },
+        { "type": "internalLink", "text": "{{i18n:doc.overview.link-turtles}}", "page": "turtles" },
+        { "type": "internalLink", "text": "{{i18n:doc.overview.link-config}}", "page": "config" }
+      ]
+    },
+    {
+      "id": "cats",
+      "name": "{{i18n:doc.page.cats}}",
+      "entries": [
+        { "type": "divider", "style": "iconCentered" },
+        { "type": "sectionTitle", "text": "{{i18n:doc.cats.title}}", "fontSize": 28 },
+        { "type": "paragraph", "text": "{{i18n:doc.cats.intro}}", "fontSize": 20 },
+        { "type": "paragraph", "text": "{{i18n:doc.cats.note}}", "fontSize": 18 }
+      ]
+    },
+    {
+      "id": "dogs",
+      "name": "{{i18n:doc.page.dogs}}",
+      "entries": [
+        { "type": "divider", "style": "iconCentered" },
+        { "type": "sectionTitle", "text": "{{i18n:doc.dogs.title}}", "fontSize": 28 },
+        { "type": "paragraph", "text": "{{i18n:doc.dogs.intro}}", "fontSize": 20 },
+        { "type": "divider", "style": "dotted" },
+        { "type": "sectionTitle", "text": "{{i18n:doc.dogs.morning-title}}", "fontSize": 26 },
+        { "type": "paragraph", "text": "{{i18n:doc.dogs.morning-body}}", "fontSize": 20 },
+        { "type": "sectionTitle", "text": "{{i18n:doc.dogs.evening-title}}", "fontSize": 26 },
+        { "type": "paragraph", "text": "{{i18n:doc.dogs.evening-body}}", "fontSize": 20 },
+        { "type": "divider", "style": "dotted" },
+        { "type": "sectionTitle", "text": "{{i18n:doc.dogs.exceptions-title}}", "fontSize": 26 },
+        { "type": "paragraph", "text": "{{i18n:doc.dogs.exceptions-body}}", "fontSize": 20 },
+        { "type": "caption", "text": "{{i18n:doc.dogs.multiplayer}}" }
+      ]
+    },
+    {
+      "id": "turtles",
+      "name": "{{i18n:doc.page.turtles}}",
+      "entries": [
+        { "type": "divider", "style": "iconCentered" },
+        { "type": "sectionTitle", "text": "{{i18n:doc.turtles.title}}", "fontSize": 28 },
+        { "type": "paragraph", "text": "{{i18n:doc.turtles.intro}}", "fontSize": 20 },
+        {
+          "type": "spoiler",
+          "label": "{{i18n:doc.turtles.rounding-label}}",
+          "text": "{{i18n:doc.turtles.rounding-text}}"
+        }
+      ]
+    },
+    {
+      "id": "config",
+      "name": "{{i18n:doc.page.config}}",
+      "entries": [
+        { "type": "divider", "style": "iconCentered" },
+        { "type": "sectionTitle", "text": "{{i18n:doc.config.title}}", "fontSize": 28 },
+        { "type": "paragraph", "text": "{{i18n:doc.config.intro}}", "fontSize": 20 },
+        { "type": "divider", "style": "dotted" },
+        { "type": "sectionTitle", "text": "CatsScareCrows", "fontSize": 26 },
+        { "type": "paragraph", "text": "{{i18n:doc.config.cats}}", "fontSize": 20 },
+        { "type": "keyValue", "fontSize": 18, "key": "{{i18n:doc.config.default-key}}", "value": "true" },
+        { "type": "spacer", "height": 8 },
+        { "type": "sectionTitle", "text": "DogsHerdAnimals", "fontSize": 26 },
+        { "type": "paragraph", "text": "{{i18n:doc.config.dogs}}", "fontSize": 20 },
+        { "type": "keyValue", "fontSize": 18, "key": "{{i18n:doc.config.default-key}}", "value": "true" },
+        { "type": "spacer", "height": 8 },
+        { "type": "sectionTitle", "text": "HerdOutTime", "fontSize": 26 },
+        { "type": "paragraph", "text": "{{i18n:doc.config.herd-out}}", "fontSize": 20 },
+        { "type": "keyValue", "fontSize": 18, "key": "{{i18n:doc.config.default-key}}", "value": "610" },
+        { "type": "keyValue", "fontSize": 18, "key": "{{i18n:doc.config.range-key}}", "value": "600 – 1200" },
+        { "type": "spacer", "height": 8 },
+        { "type": "sectionTitle", "text": "HerdInTime", "fontSize": 26 },
+        { "type": "paragraph", "text": "{{i18n:doc.config.herd-in}}", "fontSize": 20 },
+        { "type": "keyValue", "fontSize": 18, "key": "{{i18n:doc.config.default-key}}", "value": "1800" },
+        { "type": "keyValue", "fontSize": 18, "key": "{{i18n:doc.config.range-key}}", "value": "1500 – 2200" },
+        { "type": "spacer", "height": 8 },
+        { "type": "sectionTitle", "text": "CloseDoorsTime", "fontSize": 26 },
+        { "type": "paragraph", "text": "{{i18n:doc.config.close-doors}}", "fontSize": 20 },
+        { "type": "keyValue", "fontSize": 18, "key": "{{i18n:doc.config.default-key}}", "value": "1900" },
+        { "type": "keyValue", "fontSize": 18, "key": "{{i18n:doc.config.range-key}}", "value": "1600 – 2400" },
+        { "type": "spacer", "height": 8 },
+        { "type": "sectionTitle", "text": "TurtlesBoostRoe", "fontSize": 26 },
+        { "type": "paragraph", "text": "{{i18n:doc.config.turtles}}", "fontSize": 20 },
+        { "type": "keyValue", "fontSize": 18, "key": "{{i18n:doc.config.default-key}}", "value": "true" },
+        { "type": "spacer", "height": 8 },
+        { "type": "sectionTitle", "text": "TurtleRoeMultiplier", "fontSize": 26 },
+        { "type": "paragraph", "text": "{{i18n:doc.config.roe-multiplier}}", "fontSize": 20 },
+        { "type": "keyValue", "fontSize": 18, "key": "{{i18n:doc.config.default-key}}", "value": "1.5" },
+        { "type": "keyValue", "fontSize": 18, "key": "{{i18n:doc.config.range-key}}", "value": "1 – 5" }
+      ]
+    }
+  ]
+}
